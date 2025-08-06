@@ -1,3 +1,12 @@
 .venv
 .env
 .ipynb_checkpoints/
+
+# Ignore cache and temporary files
+.cache/
+.ipython/
+.local/
+
+# Ignore Jupyter Notebook files and checkpoints
+.ipynb_checkpoints/
+.jupyter/
