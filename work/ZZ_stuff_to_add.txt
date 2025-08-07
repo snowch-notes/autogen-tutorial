@@ -1,0 +1,8 @@
+### Streaming Considerations
+
+When using `on_messages_stream()`, keep in mind:
+- Handle partial responses gracefully in your UI
+- Implement proper error handling for stream interruptions
+- Consider buffering strategies for smooth display
+- Plan for variable chunk sizes and timing
+- Ensure your application can handle both complete and incomplete response states
