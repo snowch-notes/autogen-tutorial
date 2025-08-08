@@ -10,3 +10,6 @@
 # Ignore Jupyter Notebook files and checkpoints
 .ipynb_checkpoints/
 .jupyter/
+.bash_history
+.npm/
+__pycache__
