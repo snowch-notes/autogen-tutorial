@@ -13,3 +13,6 @@
 .bash_history
 .npm/
 __pycache__
+
+/.quarto/
+_book/
