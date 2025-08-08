@@ -29,6 +29,9 @@ book:
       chapters: 
         - work/03_userproxyagent/01_Intro.ipynb
         - work/03_userproxyagent/02_Sample.ipynb
+    - part: Teams
+      chapters: 
+        - work/04_teams/01_Intro.ipynb
 format:
   html:
     theme: cosmo
