@@ -12,4 +12,6 @@ fi
 docker run -it --rm -p 8888:8888 \
   -v "${PWD}/work":/home/jovyan/ \
   --env-file .env \
+  --user root \
+  -e GRANT_SUDO=yes \
   quay.io/jupyter/datascience-notebook:2025-03-14
