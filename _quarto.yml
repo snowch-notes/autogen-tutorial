@@ -25,6 +25,9 @@ book:
         - work/02_agents/10_Managing_Model_Context.ipynb
         - work/02_agents/11_Exploring_Preset_Agents.ipynb
         - work/02_agents/12_AssistantAgent_Conclustion.ipynb
+    - part: UserProxyAgent
+      chapters: 
+        - work/03_userproxyagent/01_Intro.ipynb
 
 format:
   html:
