@@ -7,20 +7,24 @@ book:
   author: "Chris Snow"
   chapters:
     - index.qmd
-    - work/00_Python_Asyncio.ipynb
-    - work/01_OpenAI_Client.ipynb
-    - work/02_First_Agent.ipynb
-    - work/03_Multi_Modal.ipynb
-    - work/04_Structured_Output.ipynb
-    - work/05_Tools_Intro.ipynb
-    - work/06_MCP_Intro.ipynb
-    - work/07_Workbench.ipynb
-    - work/08_Built_in_Tools.ipynb
-    - work/09_Agent_as_Tool.ipynb
-    - work/10_Advanced_Tool_Usage.ipynb
-    - work/11_Managing_Model_Context.ipynb
-    - work/12_Exploring_Preset_Agents.ipynb
-    - work/13_AssistantAgent_Conclustion.ipynb
+    - part: Intro
+      chapters:
+        - work/01_intro/01_Python_Asyncio.ipynb
+        - work/01_intro/02_OpenAI_Client.ipynb
+    - part: Agents
+      chapters:
+        - work/02_agents/01_First_Agent.ipynb
+        - work/02_agents/02_Multi_Modal.ipynb
+        - work/02_agents/03_Structured_Output.ipynb
+        - work/02_agents/04_Tools_Intro.ipynb
+        - work/02_agents/05_MCP_Intro.ipynb
+        - work/02_agents/06_Workbench.ipynb
+        - work/02_agents/07_Built_in_Tools.ipynb
+        - work/02_agents/08_Advanced_Tool_Usage.ipynb
+        - work/02_agents/09_Agent_as_Tool.ipynb
+        - work/02_agents/10_Managing_Model_Context.ipynb
+        - work/02_agents/11_Exploring_Preset_Agents.ipynb
+        - work/02_agents/12_AssistantAgent_Conclustion.ipynb
 
 format:
   html:

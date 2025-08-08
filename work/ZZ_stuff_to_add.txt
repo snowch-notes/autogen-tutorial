@@ -6,3 +6,8 @@ When using `on_messages_stream()`, keep in mind:
 - Consider buffering strategies for smooth display
 - Plan for variable chunk sizes and timing
 - Ensure your application can handle both complete and incomplete response states
+
+===
+
+Exercise: AssistantAgent examples in https://microsoft.github.io/autogen/stable/reference/python/autogen_agentchat.agents.html#autogen_agentchat.agents.BaseChatAgent
+

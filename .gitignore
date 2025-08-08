@@ -16,3 +16,4 @@ __pycache__
 
 /.quarto/
 _book/
+work/02_agents/mcp_echo_tool.py
