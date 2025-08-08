@@ -7,11 +7,11 @@ book:
   author: "Chris Snow"
   chapters:
     - index.qmd
-    - part: Intro
+    - part: "Autogen Introduction"
       chapters:
         - work/01_intro/01_Python_Asyncio.ipynb
         - work/01_intro/02_OpenAI_Client.ipynb
-    - part: Agents
+    - part: "Agent Introduction"
       chapters:
         - work/02_agents/01_First_Agent.ipynb
         - work/02_agents/02_Multi_Modal.ipynb
@@ -28,7 +28,7 @@ book:
     - part: UserProxyAgent
       chapters: 
         - work/03_userproxyagent/01_Intro.ipynb
-
+        - work/03_userproxyagent/02_Sample.ipynb
 format:
   html:
     theme: cosmo
