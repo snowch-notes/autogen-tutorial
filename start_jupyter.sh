@@ -8,8 +8,10 @@ if [ ! -f ".env" ]; then
   exit 1
 fi
 
-# how to provide .env file as param vv
-docker run -it --rm -p 8888:8888 \
+# ↓ provide .env file as param ↓
+docker run -it --rm \
+  -p 8888:8888 \
+  -p 8002:8002 \
   -v "${PWD}/work":/home/jovyan/ \
   --env-file .env \
   --user root \
