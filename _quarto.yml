@@ -32,6 +32,10 @@ book:
     - part: Teams
       chapters: 
         - work/04_teams/01_Intro.ipynb
+        - work/04_teams/02_CreateTeam.ipynb
+        - work/04_teams/03_ObserveTeam.ipynb
+        - work/04_teams/04_ControlTeam.ipynb
+        - work/04_teams/05_SingleAgentTeam.ipynb
 format:
   html:
     theme: cosmo
