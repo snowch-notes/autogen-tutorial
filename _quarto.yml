@@ -27,8 +27,8 @@ book:
         - work/02_agents/12_AssistantAgent_Conclustion.ipynb
     - part: UserProxyAgent
       chapters: 
-        - work/03_userproxyagent/01_Intro.ipynb
-        - work/03_userproxyagent/02_Sample.ipynb
+        - work/03_user_proxy_agent/01_Intro.ipynb
+        - work/03_user_proxy_agent/02_Sample.ipynb
     - part: Teams
       chapters: 
         - work/04_teams/01_Intro.ipynb
@@ -36,6 +36,10 @@ book:
         - work/04_teams/03_ObserveTeam.ipynb
         - work/04_teams/04_ControlTeam.ipynb
         - work/04_teams/05_SingleAgentTeam.ipynb
+    - part: "Human In The Loop"
+      chapters:
+        - work/05_human_in_loop/01_Intro.ipynb
+        - work/05_human_in_loop/02_Handoff.ipynb
 format:
   html:
     theme: cosmo
